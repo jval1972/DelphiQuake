@@ -1,7 +1,6 @@
 Quake to Delphi Total Conversion
 Author: Jim Valavanis
-E-Mail: jimmyvalavanis@yahoo.gr
-Site  : http://www.geocities.com/jimmyvalavanis/applications/delphiquake.html
+Site  : https://sourceforge.net/projects/delphiquake/
 
 Special thanks to http://www.sibvrv.com/ for many fixes.
 
@@ -12,6 +11,7 @@ You can freely use and copy this software when you have done the following:
   b) Do not make it for profit
   c) Do not modify this file
 
+Downloads later version at: https://sourceforge.net/projects/delphiquake/files/DelphiQuake%201.1.1.241/DelphiQuake%201.1.1.241.rar/download
 
 General
 -------
@@ -44,5 +44,5 @@ Started Quake to Delphi initial Conversion.
 
 Requirements
 Windows operating system with DirectX 7.0 and OpenGL support.
-Minimum Pentium,  32 MB RAM. 
+Minimum Pentium,Â  32 MB RAM. 
 For optimum performance a faster prossessor and AGP graphics adapter.
