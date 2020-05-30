@@ -1,0 +1,689 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <PathDelim Value="\"/>
+    <General>
+      <Flags>
+        <UseDefaultCompilerOptions Value="True"/>
+      </Flags>
+      <MainUnit Value="0"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+      <Icon Value="0"/>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <i18n>
+      <EnableI18N LFM="False"/>
+    </i18n>
+    <VersionInfo>
+      <StringTable ProductVersion=""/>
+    </VersionInfo>
+    <BuildModes Count="1" Active="Default">
+      <Item1 Name="Default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="1">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+    </RequiredPackages>
+    <Units Count="94">
+      <Unit0>
+        <Filename Value="dquake.dpr"/>
+        <IsPartOfProject Value="True"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="25"/>
+        <CursorPos X="1" Y="32"/>
+        <UsageCount Value="20"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="FastMM4.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="FastMM4"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="18"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="dquake.inc"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="32"/>
+        <CursorPos X="27" Y="38"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="zone.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="zone"/>
+        <UsageCount Value="20"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="bspconst.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="bspconst"/>
+        <UsageCount Value="20"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="bspfile.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="bspfile"/>
+        <UsageCount Value="20"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="bsptypes.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="bsptypes"/>
+        <UsageCount Value="20"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="cd_win.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="cd_win"/>
+        <UsageCount Value="20"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="chase.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="chase"/>
+        <UsageCount Value="20"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="cl_demo.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="cl_demo"/>
+        <UsageCount Value="20"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="cl_input.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="cl_input"/>
+        <UsageCount Value="20"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="cl_main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="cl_main"/>
+        <UsageCount Value="20"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="cl_main_h.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="cl_main_h"/>
+        <UsageCount Value="20"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="cl_parse.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="cl_parse"/>
+        <UsageCount Value="20"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="cl_tent.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="cl_tent"/>
+        <UsageCount Value="20"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="client.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="client"/>
+        <UsageCount Value="20"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="cmd.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="cmd"/>
+        <UsageCount Value="20"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="common.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="common"/>
+        <UsageCount Value="20"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="conproc.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="conproc"/>
+        <UsageCount Value="20"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="console.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="console"/>
+        <UsageCount Value="20"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="crc.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="crc"/>
+        <UsageCount Value="20"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="cvar.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="cvar"/>
+        <UsageCount Value="20"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="DirectX.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="DirectX"/>
+        <UsageCount Value="20"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="FastMM4Messages.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="FastMM4Messages"/>
+        <UsageCount Value="20"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="gl_defs.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="gl_defs"/>
+        <UsageCount Value="20"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="gl_draw.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="gl_draw"/>
+        <UsageCount Value="20"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="gl_mesh.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="gl_mesh"/>
+        <UsageCount Value="20"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="gl_model.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="gl_model"/>
+        <UsageCount Value="20"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="gl_model_h.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="gl_model_h"/>
+        <UsageCount Value="20"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="gl_part.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="gl_part"/>
+        <UsageCount Value="20"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="gl_planes.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="gl_planes"/>
+        <UsageCount Value="20"/>
+      </Unit30>
+      <Unit31>
+        <Filename Value="gl_refrag.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="gl_refrag"/>
+        <UsageCount Value="20"/>
+      </Unit31>
+      <Unit32>
+        <Filename Value="gl_rlight.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="gl_rlight"/>
+        <UsageCount Value="20"/>
+      </Unit32>
+      <Unit33>
+        <Filename Value="gl_rmain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="gl_rmain"/>
+        <UsageCount Value="20"/>
+      </Unit33>
+      <Unit34>
+        <Filename Value="gl_rmain_h.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="gl_rmain_h"/>
+        <UsageCount Value="20"/>
+      </Unit34>
+      <Unit35>
+        <Filename Value="gl_rmisc.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="gl_rmisc"/>
+        <UsageCount Value="20"/>
+      </Unit35>
+      <Unit36>
+        <Filename Value="gl_rsurf.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="gl_rsurf"/>
+        <UsageCount Value="20"/>
+      </Unit36>
+      <Unit37>
+        <Filename Value="gl_screen.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="gl_screen"/>
+        <UsageCount Value="20"/>
+      </Unit37>
+      <Unit38>
+        <Filename Value="gl_sky.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="gl_sky"/>
+        <UsageCount Value="20"/>
+      </Unit38>
+      <Unit39>
+        <Filename Value="gl_texture.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="gl_texture"/>
+        <UsageCount Value="20"/>
+      </Unit39>
+      <Unit40>
+        <Filename Value="gl_vidnt.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="gl_vidnt"/>
+        <UsageCount Value="20"/>
+      </Unit40>
+      <Unit41>
+        <Filename Value="gl_warp.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="gl_warp"/>
+        <UsageCount Value="20"/>
+      </Unit41>
+      <Unit42>
+        <Filename Value="host.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="host"/>
+        <UsageCount Value="20"/>
+      </Unit42>
+      <Unit43>
+        <Filename Value="host_cmd.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="host_cmd"/>
+        <UsageCount Value="20"/>
+      </Unit43>
+      <Unit44>
+        <Filename Value="host_h.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="host_h"/>
+        <UsageCount Value="20"/>
+      </Unit44>
+      <Unit45>
+        <Filename Value="in_win.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="in_win"/>
+        <UsageCount Value="20"/>
+      </Unit45>
+      <Unit46>
+        <Filename Value="keys.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="keys"/>
+        <UsageCount Value="20"/>
+      </Unit46>
+      <Unit47>
+        <Filename Value="keys_h.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="keys_h"/>
+        <UsageCount Value="20"/>
+      </Unit47>
+      <Unit48>
+        <Filename Value="m_fixed.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="m_fixed"/>
+        <UsageCount Value="20"/>
+      </Unit48>
+      <Unit49>
+        <Filename Value="mathlib.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="mathlib"/>
+        <UsageCount Value="20"/>
+      </Unit49>
+      <Unit50>
+        <Filename Value="menu.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="menu"/>
+        <UsageCount Value="20"/>
+      </Unit50>
+      <Unit51>
+        <Filename Value="modelgen.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="modelgen"/>
+        <UsageCount Value="20"/>
+      </Unit51>
+      <Unit52>
+        <Filename Value="net.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="net"/>
+        <UsageCount Value="20"/>
+      </Unit52>
+      <Unit53>
+        <Filename Value="net_dgrm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="net_dgrm"/>
+        <UsageCount Value="20"/>
+      </Unit53>
+      <Unit54>
+        <Filename Value="net_loop.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="net_loop"/>
+        <UsageCount Value="20"/>
+      </Unit54>
+      <Unit55>
+        <Filename Value="net_main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="net_main"/>
+        <UsageCount Value="20"/>
+      </Unit55>
+      <Unit56>
+        <Filename Value="net_vcr.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="net_vcr"/>
+        <UsageCount Value="20"/>
+      </Unit56>
+      <Unit57>
+        <Filename Value="net_win.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="net_win"/>
+        <UsageCount Value="20"/>
+      </Unit57>
+      <Unit58>
+        <Filename Value="net_wins.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="net_wins"/>
+        <UsageCount Value="20"/>
+      </Unit58>
+      <Unit59>
+        <Filename Value="net_wipx.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="net_wipx"/>
+        <UsageCount Value="20"/>
+      </Unit59>
+      <Unit60>
+        <Filename Value="OpenGL12.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="OpenGL12"/>
+        <UsageCount Value="20"/>
+      </Unit60>
+      <Unit61>
+        <Filename Value="pr_cmds.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="pr_cmds"/>
+        <UsageCount Value="20"/>
+      </Unit61>
+      <Unit62>
+        <Filename Value="pr_comp.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="pr_comp"/>
+        <UsageCount Value="20"/>
+      </Unit62>
+      <Unit63>
+        <Filename Value="pr_edict.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="pr_edict"/>
+        <UsageCount Value="20"/>
+      </Unit63>
+      <Unit64>
+        <Filename Value="pr_exec.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="pr_exec"/>
+        <UsageCount Value="20"/>
+      </Unit64>
+      <Unit65>
+        <Filename Value="progdefs.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="progdefs"/>
+        <UsageCount Value="20"/>
+      </Unit65>
+      <Unit66>
+        <Filename Value="progs_h.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="progs_h"/>
+        <UsageCount Value="20"/>
+      </Unit66>
+      <Unit67>
+        <Filename Value="protocol.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="protocol"/>
+        <UsageCount Value="20"/>
+      </Unit67>
+      <Unit68>
+        <Filename Value="q_delphi.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="q_delphi"/>
+        <UsageCount Value="20"/>
+      </Unit68>
+      <Unit69>
+        <Filename Value="q_extra.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="q_extra"/>
+        <UsageCount Value="20"/>
+      </Unit69>
+      <Unit70>
+        <Filename Value="q_vector.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="q_vector"/>
+        <UsageCount Value="20"/>
+      </Unit70>
+      <Unit71>
+        <Filename Value="quakedef.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="quakedef"/>
+        <UsageCount Value="20"/>
+      </Unit71>
+      <Unit72>
+        <Filename Value="render_h.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="render_h"/>
+        <UsageCount Value="20"/>
+      </Unit72>
+      <Unit73>
+        <Filename Value="sbar.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="sbar"/>
+        <UsageCount Value="20"/>
+      </Unit73>
+      <Unit74>
+        <Filename Value="server_h.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="server_h"/>
+        <UsageCount Value="20"/>
+      </Unit74>
+      <Unit75>
+        <Filename Value="snd_dma.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="snd_dma"/>
+        <UsageCount Value="20"/>
+      </Unit75>
+      <Unit76>
+        <Filename Value="snd_dma_h.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="snd_dma_h"/>
+        <UsageCount Value="20"/>
+      </Unit76>
+      <Unit77>
+        <Filename Value="snd_mem.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="snd_mem"/>
+        <UsageCount Value="20"/>
+      </Unit77>
+      <Unit78>
+        <Filename Value="snd_mix.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="snd_mix"/>
+        <UsageCount Value="20"/>
+      </Unit78>
+      <Unit79>
+        <Filename Value="snd_win.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="snd_win"/>
+        <UsageCount Value="20"/>
+      </Unit79>
+      <Unit80>
+        <Filename Value="snd_win_h.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="snd_win_h"/>
+        <UsageCount Value="20"/>
+      </Unit80>
+      <Unit81>
+        <Filename Value="sound.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="sound"/>
+        <UsageCount Value="20"/>
+      </Unit81>
+      <Unit82>
+        <Filename Value="spritegn.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="spritegn"/>
+        <UsageCount Value="20"/>
+      </Unit82>
+      <Unit83>
+        <Filename Value="sv_main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="sv_main"/>
+        <UsageCount Value="20"/>
+      </Unit83>
+      <Unit84>
+        <Filename Value="sv_move.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="sv_move"/>
+        <UsageCount Value="20"/>
+      </Unit84>
+      <Unit85>
+        <Filename Value="sv_phys.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="sv_phys"/>
+        <UsageCount Value="20"/>
+      </Unit85>
+      <Unit86>
+        <Filename Value="sv_user.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="sv_user"/>
+        <UsageCount Value="20"/>
+      </Unit86>
+      <Unit87>
+        <Filename Value="sys_win.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="sys_win"/>
+        <UsageCount Value="20"/>
+      </Unit87>
+      <Unit88>
+        <Filename Value="vid_h.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="vid_h"/>
+        <UsageCount Value="20"/>
+      </Unit88>
+      <Unit89>
+        <Filename Value="view.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="view"/>
+        <UsageCount Value="20"/>
+      </Unit89>
+      <Unit90>
+        <Filename Value="w_pak.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="w_pak"/>
+        <UsageCount Value="20"/>
+      </Unit90>
+      <Unit91>
+        <Filename Value="wad.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="wad"/>
+        <UsageCount Value="20"/>
+      </Unit91>
+      <Unit92>
+        <Filename Value="world.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="world"/>
+        <UsageCount Value="20"/>
+      </Unit92>
+      <Unit93>
+        <Filename Value="wsipx_h.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="wsipx_h"/>
+        <UsageCount Value="20"/>
+      </Unit93>
+    </Units>
+    <JumpHistory Count="8" HistoryIndex="7">
+      <Position1>
+        <Filename Value="FastMM4.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position1>
+      <Position2>
+        <Filename Value="FastMM4.pas"/>
+        <Caret Line="9268" Column="1" TopLine="9247"/>
+      </Position2>
+      <Position3>
+        <Filename Value="FastMM4.pas"/>
+        <Caret Line="9266" Column="1" TopLine="9247"/>
+      </Position3>
+      <Position4>
+        <Filename Value="FastMM4.pas"/>
+        <Caret Line="9264" Column="1" TopLine="9247"/>
+      </Position4>
+      <Position5>
+        <Filename Value="dquake.inc"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position5>
+      <Position6>
+        <Filename Value="dquake.inc"/>
+        <Caret Line="43" Column="2" TopLine="32"/>
+      </Position6>
+      <Position7>
+        <Filename Value="FastMM4.pas"/>
+        <Caret Line="9255" Column="5" TopLine="9244"/>
+      </Position7>
+      <Position8>
+        <Filename Value="FastMM4.pas"/>
+        <Caret Line="9267" Column="23" TopLine="9247"/>
+      </Position8>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="9"/>
+    <PathDelim Value="\"/>
+    <Target>
+      <Filename Value="project1"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <Linking>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerMessages>
+        <UseMsgFile Value="True"/>
+      </CompilerMessages>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>
