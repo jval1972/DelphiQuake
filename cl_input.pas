@@ -124,7 +124,7 @@ begin
       b.down[1] := k
     else
     begin
-      Con_Printf('Three keys down for a button!\n');
+      Con_Printf('Three keys down for a button!'#13#10);
       exit;
     end;
 
