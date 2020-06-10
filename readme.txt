@@ -1,17 +1,9 @@
-Quake to Delphi Total Conversion
-Author: Jim Valavanis
-Site  : https://sourceforge.net/projects/delphiquake/
+Downloads later version at: https://sourceforge.net/projects/delphiquake/files/DelphiQuake%201.1.2/DelphiQuake_1.1.2.246_win32.zip/download
+
+DelphiQuake
+Site  : http://sourceforge.net/projects/delphiquake/
 
 Special thanks to http://www.sibvrv.com/ for many fixes.
-
-This is free software. 
-You can freely use and copy this software when you have done the following:
-
-  a) Do not modify the software
-  b) Do not make it for profit
-  c) Do not modify this file
-
-Downloads later version at: https://sourceforge.net/projects/delphiquake/files/DelphiQuake%201.1.1.241/DelphiQuake%201.1.1.241.rar/download
 
 General
 -------
@@ -25,6 +17,16 @@ This Application is a WIN32 port of the famous Quake game created by ID Software
 
 History
 -------
+Version 1.1.2.246 - (20200610) 
+------------------------------
+DPI awareness for modern Windows Systems.
+
+Version 1.1.1.241 - (8/8/2011) 
+------------------------------
+Fix return of huge string when quering video card extentions string.
+
+Old History
+-----------
 Version 1.0.33 - (30/1/2008) 
 -----------------------------------
 Stable version of DelphiQuake based on fixed by http://www.sibvrv.com/.
@@ -46,3 +48,4 @@ Requirements
 Windows operating system with DirectX 7.0 and OpenGL support.
 Minimum Pentium,  32 MB RAM. 
 For optimum performance a faster prossessor and AGP graphics adapter.
+Usage of external hi-res textures require additional video ram and resources.
