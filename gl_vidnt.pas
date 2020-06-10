@@ -1118,11 +1118,11 @@ begin
       end;
 
     WM_KEYDOWN,
-      WM_SYSKEYDOWN:
+    WM_SYSKEYDOWN:
       Key_ProcessEvent(MapKey(lParam), true);
 
     WM_KEYUP,
-      WM_SYSKEYUP:
+    WM_SYSKEYUP:
       Key_ProcessEvent(MapKey(lParam), false);
       //I_ProcessInput;
 
@@ -1132,12 +1132,12 @@ begin
   // this is complicated because Win32 seems to pack multiple mouse events into
   // one update sometimes, so we always check all states and look for events
     WM_LBUTTONDOWN,
-      WM_LBUTTONUP,
-      WM_RBUTTONDOWN,
-      WM_RBUTTONUP,
-      WM_MBUTTONDOWN,
-      WM_MBUTTONUP,
-      WM_MOUSEMOVE:
+    WM_LBUTTONUP,
+    WM_RBUTTONDOWN,
+    WM_RBUTTONUP,
+    WM_MBUTTONDOWN,
+    WM_MBUTTONUP,
+    WM_MOUSEMOVE:
       begin
         temp := 0;
 

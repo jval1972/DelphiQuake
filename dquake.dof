@@ -100,7 +100,7 @@ Conditionals=
 DebugSourceDirs=
 UsePackages=0
 [Parameters]
-RunParams=-bpp 32
+RunParams=-bpp 32 -width 1920 -height 1080
 HostApplication=
 Launcher=
 UseLauncher=0

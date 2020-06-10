@@ -1036,11 +1036,10 @@ begin
   { return nearest of a, b, c, breaking ties in order a, b, c }
   if (pa <= pb) and (pa <= pc) then
     result := a
+  else if pb <= pc then
+    result := b
   else
-    if pb <= pc then
-      result := b
-    else
-      result := c;
+    result := c;
 end;
 
 {Invert bytes using assembly}
@@ -1048,6 +1047,7 @@ function ByteSwap(const a: integer): integer;
 asm
   bswap eax
 end;
+
 function ByteSwap16(inp:word): word;
 asm
   bswap eax
