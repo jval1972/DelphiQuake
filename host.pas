@@ -948,7 +948,7 @@ begin
   if cls.state <> ca_dedicated then
     VID_Shutdown;
 
-  QEX_Shutdown;  
+  QEX_Shutdown;
 end;
 
 

@@ -84,7 +84,7 @@ var
   net_broadcastsocket: integer = 0;
   broadcastaddr: qsockaddr_t;
 
-  myAddr: integer;     
+  myAddr: integer;
 
 //=============================================================================
 

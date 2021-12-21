@@ -695,7 +695,7 @@ begin
 
   dispose(tmp, destroy);
 end;
-                
+
 function TTexture.GetBytesPerPixel: word;
 begin
   result := FBytesPerPixel;

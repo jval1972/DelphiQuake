@@ -127,7 +127,7 @@ begin
     _out[i] := c;
     inc(i);
   end;
-  
+
   while i < 16 do
   begin
     _out[i] := #0;
@@ -178,7 +178,7 @@ begin
   wad_numlumps := LittleLong(header.numlumps);
   infotableofs := LittleLong(header.infotableofs);
   wad_lumps := Plumpinfo_t(@wad_base[infotableofs]);
-  
+
   lump_p := wad_lumps;
   for i := 0 to wad_numlumps - 1 do
   begin
@@ -201,9 +201,9 @@ function W_GetLumpinfo(name: PChar): Plumpinfo_t;
 var
   i: integer;
   clean: array[0..15] of char;
-begin  
+begin
   W_CleanupName(name, @clean[0]);
-  
+
   result := wad_lumps;
   for i := 0 to wad_numlumps - 1 do
   begin
@@ -211,7 +211,7 @@ begin
       exit;
     inc(result);
   end;
-  
+
   Sys_Error('W_GetLumpinfo: %s not found', [name]);
   result := nil;
 end;
@@ -219,16 +219,16 @@ end;
 function W_GetLumpName(name: PChar): pointer;
 var
   lump: Plumpinfo_t;
-begin  
+begin
   lump := W_GetLumpinfo(name);
-  
+
   result := pointer(@wad_base[lump.filepos]);
 end;
 
 function W_GetLumpNum(num: integer): pointer;
 var
   lump: Plumpinfo_t;
-begin  
+begin
   if (num < 0) or (num > wad_numlumps) then
     Sys_Error('W_GetLumpNum: bad number: %d', [num]);
 

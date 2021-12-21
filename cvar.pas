@@ -225,7 +225,7 @@ begin
   Cvar_SetValue(PChar(var_name), value);
 end;
 
-procedure Cvar_SetValue(var_name: string;  value: qboolean); 
+procedure Cvar_SetValue(var_name: string;  value: qboolean);
 begin
   Cvar_SetValue(PChar(var_name), value);
 end;

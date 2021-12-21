@@ -267,7 +267,7 @@ begin
 
 	if not wasPlaying then
 		exit;
-	
+
   mciPlayParms.dwFrom := MCI_MAKE_TMSF(playTrack, 0, 0, 0);
   mciPlayParms.dwTo := MCI_MAKE_TMSF(playTrack + 1, 0, 0, 0);
   mciPlayParms.dwCallback := DWORD(mainwindow);

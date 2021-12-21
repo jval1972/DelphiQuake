@@ -504,7 +504,7 @@ begin
     if not inupdate_Con_Printf then
     begin
       inupdate_Con_Printf := true;
-      SCR_UpdateScreen;                         
+      SCR_UpdateScreen;
       inupdate_Con_Printf := false;
     end;
   end;
@@ -768,4 +768,4 @@ end;
 
 end.
 
- 
+

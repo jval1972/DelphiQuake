@@ -315,7 +315,7 @@ begin
   e.Offset := index; // offset -> index to ZIP file
   e.Size := 0;
   e.ZIP := ZIPFILE;
-  
+
   AddEntryToHashTable(NumEntries - 1);
 end;
 {$ENDIF}

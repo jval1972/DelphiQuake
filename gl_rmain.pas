@@ -733,7 +733,7 @@ begin
     glDisable(GL_BLEND);
     glColor4f(1, 1, 1, 1);
     glPopMatrix;
-  end;    
+  end;
 
 end;
 

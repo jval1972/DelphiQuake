@@ -33,7 +33,7 @@ interface
 
 uses
   q_delphi;
-  
+
 const
   VID_CBITS = 6;
   VID_GRADES = 1 shl VID_CBITS;

@@ -58,7 +58,7 @@ procedure M_DrawPic(x, y: integer; pic: Pqpic_t);
 
 procedure M_Menu_Quit_f;
 procedure M_Menu_Main_f;
-procedure M_Menu_Options_f; 
+procedure M_Menu_Options_f;
 
 procedure M_Print(cx, cy: integer; str: PChar); // VJ mayby common proc for M_Print and M_PrintWhite
 procedure M_PrintWhite(cx, cy: integer; str: PChar);
@@ -464,7 +464,7 @@ begin
           3: M_Menu_Help_f;
           4: M_Menu_Quit_f;
         end;
-        
+
       end;
   end;
 end;
@@ -553,7 +553,7 @@ label1:
         end;
 
       end;
-      
+
   end;
 end;
 
@@ -637,7 +637,7 @@ begin
   M_DrawCharacter(8, 32 + load_cursor * 8, 12 + (intval(realtime * 4) and 1));
 end;
 
-procedure M_Load_Draw; 
+procedure M_Load_Draw;
 begin
   M_LoadSave_Draw('gfx/p_load.lmp');
 end;
@@ -1016,7 +1016,7 @@ var
   m_net_items: integer;
 
 const
-  net_helpMessage: array[0..15] of PChar = 
+  net_helpMessage: array[0..15] of PChar =
   (
 //   .........1.........2....
     '',

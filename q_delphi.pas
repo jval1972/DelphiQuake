@@ -31,7 +31,7 @@ const
   MAXINT = $7fffffff;
   MININT = integer($80000000);
   MAXSHORT = $7fff;
-  
+
 type
   qboolean  = LongBool;
   Pqboolean = ^qboolean;
@@ -81,7 +81,7 @@ type
 
 type
   PPointer = ^Pointer;
-  
+
   PString = ^string;
 
   PBoolean = ^Boolean;
@@ -138,7 +138,7 @@ type
 
 type
   charset_t = set of char;
-  
+
   twobytes = packed record
     byte1, byte2: byte;
   end;
@@ -489,7 +489,7 @@ function lastword(const inp: string; const splitters: charset_t): string; overlo
 
 procedure FreeAndNil(var Obj);
 
-function StrLCopy(Dest: PChar; const Source: PChar; MaxLen: Cardinal): PChar; 
+function StrLCopy(Dest: PChar; const Source: PChar; MaxLen: Cardinal): PChar;
 
 function fabs(const f: float): float;
 
@@ -612,7 +612,7 @@ var
 const
   NULLFILE = -1;
 
-  
+
 implementation
 
 uses
@@ -975,7 +975,7 @@ type
       2: (words: array[0..3] of word);
       3: (dwords: array[0..1] of LongWord);
   end;
-  
+
 function memset(const dest0: pointer; const val: integer; const count0: integer): pointer;
 var
   data: union_8b;
@@ -1112,7 +1112,7 @@ function mallocA(var Size: integer; const Align: integer; var original: pointer)
 begin
   Size := Size + Align;
   result := malloc(Size);
-  original := result; 
+  original := result;
   if result <> nil then
     result := pointer(integer(result) and (1 - Align) + Align);
 end;
@@ -2176,7 +2176,7 @@ end;
 
 function tan(const x: extended): extended;
 var
-  a: single;        
+  a: single;
   b: single;
 begin
   b := cos(x);
@@ -2325,7 +2325,7 @@ begin
 end;
 
 function StringVal(const Str: PChar): string;
-begin                        
+begin
   sprintf(result, '%s', [Str]);
 end;
 

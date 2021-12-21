@@ -239,7 +239,7 @@ begin
   Cvar_RegisterVariable(@gl_clear);
   Cvar_RegisterVariable(@gl_texsort);
   Cvar_RegisterVariable(@gl_interpolatemodels);
-  
+
   if gl_mtexable then
     Cvar_SetValue('gl_texsort', 0.0);
 
@@ -476,4 +476,4 @@ end;
 
 end.
 
- 
+

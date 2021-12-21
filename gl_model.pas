@@ -588,7 +588,7 @@ begin
     poseverts[posenum] := Ptrivertx_t(integer(ptemp) + SizeOf(daliasframe_t));
     inc(posenum);
 
-    ptemp := Ptrivertx_t((integer(ptemp) + SizeOf(daliasframe_t)) + SizeOf(trivertx_t) * pheader.numverts); 
+    ptemp := Ptrivertx_t((integer(ptemp) + SizeOf(daliasframe_t)) + SizeOf(trivertx_t) * pheader.numverts);
   end;
 
   result := ptemp;

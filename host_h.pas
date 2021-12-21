@@ -72,7 +72,7 @@ var
   noexit: cvar_t = (name: 'noexit'; text: '0'; archive: false; server: true);
 
   developer: cvar_t = (name: 'developer'; text: '0');
-  
+
   skill: cvar_t = (name: 'skill'; text: '1'); // 0 - 3
   deathmatch: cvar_t = (name: 'deathmatch'; text: '0'); // 0, 1, or 2
   coop: cvar_t = (name: 'coop'; text: '0'); // 0 or 1

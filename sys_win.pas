@@ -26,7 +26,7 @@
 {$Z4}
 
 {$WARN SYMBOL_DEPRECATED OFF}
-{$WARN SYMBOL_PLATFORM OFF}	
+{$WARN SYMBOL_PLATFORM OFF}
 
 unit sys_win;
 
@@ -836,7 +836,7 @@ begin
   end;
 
   I_SetDPIAwareness;
-    
+
   global_hInstance := hInstance;
   global_nCmdShow := CmdShow;
 
